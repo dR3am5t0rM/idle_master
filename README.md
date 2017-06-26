@@ -3,6 +3,11 @@ Idle Master
 
 This program will determine which of your Steam games still have Steam Trading Card drops remaining, and will go through each application to simulate you being “in-game” so that cards will drop.  It will check periodically to see if the game you’re idling has card drops remaining.  When only one drop remains, it will start checking more frequently.  When the game you’re idling has no more cards, it’ll move on to the next game.  When no more cards are available, the program will terminate.
 
+Fork
+-------
+
+The purpose of this fork is to allow Idle Master to idle any game regardless of the number of card drops remaining. 
+
 Requirements
 -------
 
