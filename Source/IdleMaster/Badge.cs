@@ -66,7 +66,7 @@ namespace IdleMaster
                 var cards = cardNode == null ? string.Empty : Regex.Match(cardNode.InnerText, @"[0-9]+").Value;
 
                 UpdateStats(cards, hours);
-                return RemainingCard != 0;
+                return true;
             }
             catch (Exception ex)
             {
